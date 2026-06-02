@@ -15,3 +15,8 @@ app.include_router(product_routes)
 app.include_router(cart_routes)
 app.include_router(order_routes)
 app.include_router(payment_routes)
+
+
+@app.get("/")
+def home():
+    return {"message": "FastAPI deployed on Vercel"}
