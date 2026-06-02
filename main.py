@@ -19,4 +19,4 @@ app.include_router(payment_routes)
 
 @app.get("/")
 def home():
-    return {"message": "FastAPI deployed on Vercel"}
+    return {"message": "Welcome to Bazario Order System .........."}
