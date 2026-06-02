@@ -11,5 +11,5 @@ class settings(BaseSettings):
     
 settings = settings()
 
-print(settings.DB_CONNECTION)
+
 
